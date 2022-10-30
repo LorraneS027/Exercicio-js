@@ -5,10 +5,6 @@ function tempo() {
     console.log("O dia está ensolarado!");
 }
 
-tempo()
-
-
-
 //Exercicio 2
 function tipoDedado(dado) {
 
@@ -17,20 +13,7 @@ function tipoDedado(dado) {
     console.log(`Esse dado é um ${dados}`)
 }
 
-tipoDedado("mensagem")
-tipoDedado(true)
-tipoDedado(13.1)
-
-
-
-
 //Exercicio 3 
-// funcao que recebe dois parametros, dentro da funçao criar 3 variaveis
-// 1 para soma
-// 1 subtrir
-// 1 multiplicar
-// retornar no console a soma deu x, subtração y, mult z.
-
 function valores(x, y) {
 
     var soma = x + y
@@ -44,13 +27,7 @@ function valores(x, y) {
 
 valores(6, 2)
 
-
-
 //Exercicio 4
-// função recebe parametro idade, dentro da função verificar a idade e imprimir na tela
-// se for maior que 60 pode aposentar, menor que 60 idade mininma noa atingida.
-
-
 function idade(idade) {
 
     var resultado = idade >= 60 ? "Pode aposentar!" : "Não pode!"
@@ -63,8 +40,6 @@ idade(61)
 
 
 // Exercicio 5
-// escreva funçao e crie uma variavel que recebe valor aleatorio entre 5 e 50.
-
 function numAleatorio(numero) {
 
     var aleatorio = Math.random(5, 50)
@@ -76,9 +51,6 @@ function numAleatorio(numero) {
 numAleatorio()
 
 // Exercicio 6
-// funçao recebe parametro idade, dentro veifique se a idade for de 0 a 7 criasnca
-// se for 7 A 12 pre adolescente, se for 12 a 21 adolescente, se nao 21 a 32 jovem , de 32 a 45 adulto
-
 function i(ida) {
 
 
@@ -98,13 +70,11 @@ function i(ida) {
 
         console.log('Jovem')
 
-    } else(ida <= 45) {
+    } else if (ida <= 45) {
 
         console.log('adulto')
 
     }
-
-
 
 }
 
