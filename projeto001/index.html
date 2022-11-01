@@ -10,8 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="01.js"></script>
-    
+    <script src="scripts.js"></script>
+
 </head>
 
 <body>
@@ -20,12 +20,12 @@
             <h1>Exercicios</h1>
             <br>
             <p> JavaScript, Html e Css </p>
-        </div> 
+        </div>
     </header>
 
     <main>
         <div class="section-exercicios">
-            
+
             <div class="class-bloco-exercicios">
                 <div class="class-div-txt-pergunta">
                     <h2 class="class-txt-h2">1. Exercicio </h2>
@@ -80,7 +80,7 @@
                     <p class="class-txt-p">
                         Fazer uma função que receba parametro idade, dentro da função verificar a idade e imprimir na
                         tela.
-                        Se for maior que 60 pode aposentar, menor que 60 não pode.
+                        Se for maior que 60 é idoso, menor que 60 não é.
                     </p>
                     <div class="section-resposta">
                         <span class="botao-resposta" onclick="resposta4()"><a></a></span>
@@ -207,10 +207,10 @@
                 <span class="ajust-tbl-codigo2">var sub = x - y</span>
                 <br>
                 <span>4</span>
-                <span class="ajust-tbl-codigo"> var mult = x * y</span>
+                <span class="ajust-tbl-codigo2"> var mult = x * y</span>
                 <br>
                 <span>5</span>
-                <span class="ajust-tbl-codigo">console.log(`+ `o valor da soma é ${soma}` + `, o valor da subtração é ${sub}` + `e o valor da multiplicação é ${mult}` + `)</span>
+                <span class="ajust-tbl-codigo">console.log(`+ `o valor da soma é ${soma}` + `, o valor da subtração é ${sub}` + `e o valor da multiplicação  é ${mult}` + `)</span>
                 <br>
                 <span>6</span>
                 <span class="ajust-tbl-codigo">}</span>
@@ -228,13 +228,13 @@
         $("#resposta-4").html(`
             <code class="tabela-codigo">
                 <span>1</span>
-                <span class="ajust-tbl-codigo">function idade(idade) {</span>
+                <span class="ajust-tbl-codigo">function idade (idade) {</span>
                 <br>
-                <span>2</span>
-                <span class="ajust-tbl-codigo2"> var resultado = idade >= 60 ? "Pode aposentar!" : "Não pode!"
+                <span>2</spn>
+                <span class="ajust-tbl-codigo2"> var x=idade>=60?"É idoso":"Não é"
                 <br>
                 <span>3</span>
-                <span class="ajust-tbl-codigo2">console.log(resultado)
+                <span class="ajust-tbl-codigo2">&nbspconsole.log(x)
                 </span>
                 <br>
                 <span>4</span>

@@ -25,19 +25,13 @@ function valores(x, y) {
     console.log(`o valor da soma é ${soma}, o valor da subtração é ${sub} e o valor da multiplicação é ${mult}`)
 }
 
-valores(6, 2)
-
 //Exercicio 4
 function idade(idade) {
 
-    var resultado = idade >= 60 ? "Pode aposentar!" : "Não pode!"
+    var resultado = idade >= 60 ? "Idoso!" : "Não é"
 
     console.log(resultado)
-
 }
-
-idade(61)
-
 
 // Exercicio 5
 function numAleatorio(numero) {
@@ -45,14 +39,10 @@ function numAleatorio(numero) {
     var aleatorio = Math.random(5, 50)
 
     console.log(aleatorio)
-
 }
-
-numAleatorio()
 
 // Exercicio 6
 function i(ida) {
-
 
     if (ida <= 7) {
 
@@ -75,13 +65,6 @@ function i(ida) {
         console.log('adulto')
 
     }
-
 }
 
-
-i(03)
-i(12)
-i(25)
-i(33)
-i(49)
 
